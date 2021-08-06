@@ -48,3 +48,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 npx create-react-app my-app  --template typescript
+
+echo "# swf_manages" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tddey01/swf_manages.git
+git push -u origin main
